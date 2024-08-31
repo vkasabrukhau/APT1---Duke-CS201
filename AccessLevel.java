@@ -11,6 +11,7 @@ public class AccessLevel {
                 list.add("D");
             }
         }
-        return "";
+        String listString = String.join("", list);
+        return listString;
     }
 }
